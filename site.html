@@ -1,36 +1,89 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clone-Site</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header> 
-        <!-- 네비게이션 바 -->
-        <nav></nav>
-    </header>
-    <main>
-        <section>
-            <!-- 동아리 소개 & 카운트다운 -->
-                <article></article>
-            <!-- 멋쟁이사자처럼 소개 -->
-                <article></article>
-        </section>
-        <section>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="background">
+        <!-- 헤더 및 네비게이션 -->
+        <header>
+          <nav>
+            <div class="nav-left">
+              <img
+                src="images/authority mark_silver.png"
+                id="nav-logo"
+                alt="영남대로고"
+                width="68"
+                height="68"
+              />
+              <div class="nav-subject">LIKELION YU</div>
+            </div>
+            <div class="nav-right">
+              <div class="nav-contents">
+                <div class="contents-track">트랙소개</div>
+                <div class="contents-activity">활동</div>
+                <div class="contents-schedule">연간일정</div>
+                <div class="contents-FAQ">자주 묻는 질문</div>
+              </div>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSedM5oxRAMbTkicDbB5jtgsfUvbkUOJqdXrEkKuxeX6dvdtmw/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="nav-apply"
+                >13기 지원하기</a
+              >
+            </div>
+          </nav>
+        </header>
+        <main>
+          <!-- 동아리 소개 & 카운트다운 -->
+          <section>
+            <div class="club-introduction">
+              <img
+                src="images/main.709163b45173a3ed53cd54688324f31a.svg"
+                class="club-image"
+              />
+              <p class="club-title">내 아이디어를 내 손으로 실현하자!</p>
+              <p class="club-description">
+                영남대학교 멋쟁이사자처럼은 웹 개발을 중점으로 하는 IT
+                동아리입니다.<br />기획, 디자인, 개발을 아우르는 협업을 통해, 팀
+                프로젝트로 실용적인 서비스를 직접 만들어보는 경험을 할 수
+                있습니다.
+              </p>
+            </div>
+            <div class="countdown">
+              <p>서류접수 마감까지</p>
+            </div>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSedM5oxRAMbTkicDbB5jtgsfUvbkUOJqdXrEkKuxeX6dvdtmw/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="nav-apply"
+              >13기 지원하기</a
+            >
+            <div></div>
+          </section>
+          <!-- 멋쟁이사자처럼 소개 -->
+          <section></section>
+          <section>
             <!-- 트랙 소개 -->
-                <article></article>
+            <article></article>
             <!-- 주요 활동 -->
-                <article></article>
+            <article></article>
             <!-- 연간 일정 -->
-                <article></article>
+            <article></article>
             <!-- 자주 묻는 질문 -->
-                <article></article>
-        </section>
-        <footer>
+            <article></article>
+          </section>
+          <footer>
             <!-- 소셜 링크 -->
-        </footer>
-    </main>
-</body>
+          </footer>
+        </main>
+      </div>
+    </div>
+  </body>
 </html>
