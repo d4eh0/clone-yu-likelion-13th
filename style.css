@@ -165,3 +165,210 @@ img {
   margin-bottom: 12px;
   margin-top: 45px;
 }
+
+.countdown-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.timer {
+  gap: 10px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.timer-counting {
+  display: flex;
+  justify-content: center;
+  padding: 10.5px 15.75px;
+  gap: 7.5px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.133) 7.43%,
+    rgba(255, 255, 255, 0.09) 96.4%
+  );
+  color: rgb(255, 255, 255);
+  border-radius: 7.5px;
+  flex-grow: 0;
+  width: 33px;
+  height: 67px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 140%;
+  text-align: center;
+}
+
+.timer-text {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.introduction-apply {
+  display: flex;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 80px;
+  background: rgb(240, 127, 54);
+  cursor: pointer;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  line-height: 29px;
+  margin-top: 70px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+/* 멋쟁이 사자처럼 소개 */
+
+.introduction {
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: 1456px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.introduction-text {
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 140%;
+}
+
+.introduction-images {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+.introduction-images div {
+  position: relative;
+  width: 480px;
+  height: 300px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.introduction-images div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+}
+.introduction-image-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  padding: 20px;
+  color: white;
+  text-align: left;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.introduction-image-text {
+}
+/* 배경 그라데이션 */
+
+.bgc-gradient1 {
+  width: 3340px;
+  height: 985px;
+  flex-shrink: 0;
+  border-radius: 3340px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(70, 93, 251, 0.8) 0%,
+    rgba(70, 93, 251, 0) 100%
+  );
+  position: absolute;
+  top: 120px;
+}
+
+.bgc-gradient2 {
+  height: 2306px;
+  width: 1391px;
+  flex-shrink: 0;
+  border-radius: 2306px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(70, 93, 251, 0.4) 0%,
+    rgba(70, 93, 251, 0) 100%
+  );
+  position: absolute;
+  top: 1337px;
+  right: -710px;
+}
+
+.bgc-gradient3 {
+  height: 2306px;
+  width: 1391px;
+  flex-shrink: 0;
+  border-radius: 2306px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(70, 93, 251, 0.4) 0%,
+    rgba(70, 93, 251, 0) 100%
+  );
+  position: absolute;
+  top: 3678px;
+  left: -742px;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-color: rgb(29, 31, 41);
+  position: absolute;
+  top: 6700px;
+  z-index: 3;
+}
+
+.footer-contents {
+  display: flex;
+  justify-content: space-between;
+  width: 1520px;
+  margin-bottom: 40px;
+}
+
+.footer-subject {
+  color: rgb(255, 255, 255);
+  font-family: "Gmarket Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+  letter-spacing: -1.44px;
+}
+
+.footer-copyright {
+  color: rgb(171, 171, 171);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%;
+  letter-spacing: -0.72px;
+}
